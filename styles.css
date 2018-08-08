@@ -1,19 +1,32 @@
 html {
   height: 100%;
+  background: linear-gradient(328deg, #fb946d, #e5b9f1, #85b1fb);
+  background-size: 100% 250%;
+  background-repeat: no-repeat;
 }
 
 body {
-  background-color: antiquewhite;
   min-height: 100%;
-  margin: 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+
 }
 
 h1 {
+font-size: 35pt;
 
 }
 
 h2 {
-
+text-transform: uppercase;
+font-size: 10pt;
+letter-spacing: 13px;
+color: #fb946d;
+text-align: center;
 }
 
 h3 {
@@ -29,4 +42,10 @@ a {
 }
 
 nav {
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
